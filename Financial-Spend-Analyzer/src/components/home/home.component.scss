@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#fff;
+    background-color: #4D7Bff;
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            margin: 1rem;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+    .logo{
+        padding: 1rem;
+    }
+}

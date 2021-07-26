@@ -10,22 +10,22 @@
 </nav>
 <div>
     <span>Customer id :{{id}}</span>
-    <div class="">
+    <div class="makePayment">
         Make A Payment
     </div>
     <form [formGroup] = "myform" (ngSubmit)="onSubmit()" >
-        <div>
+        <div class="form">
            <label for=""> Amount
-            <input type="number" formControlName="amount">
+            <input type="number" formControlName="amount" class="formInput" placeholder="Enter Amount">
            </label> 
            <label for="">
                Category of Spend
-               <input type = "text" formControlName="transactionDescription">
+               <input type = "text" class="formInput"  formControlName="categoryOfSpend"placeholder="Cateroy of spend">
            </label>
            <label for="">
                Transaction Description
-               <textarea rows="4" cols="50" name="comment" form="usrform" formControlName="categoryOfSpend">
-                   </textarea>
+               <input type = "text" class="formInput" class="formInput" formControlName="transactionDescription" placeholder="  Transaction Description">
+                   
            </label>
            <button type="submit">
                Submit

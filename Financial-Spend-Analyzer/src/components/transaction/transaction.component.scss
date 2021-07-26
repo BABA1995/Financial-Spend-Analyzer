@@ -1,4 +1,5 @@
 table {
+    margin-top: 3rem;
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -13,3 +14,20 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+  .showTransac{
+    text-align: center;
+      button{
+        background-color: #386BFF;
+        color: white;
+        border:none;
+        padding: 14px 31px;
+        cursor: pointer;
+        outline:none;
+        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        
+    } 
+  }
+  

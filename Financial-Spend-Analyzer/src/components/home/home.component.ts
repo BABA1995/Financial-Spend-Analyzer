@@ -5,63 +5,75 @@ import { FinancialService } from 'src/services/financial.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-id: Number = 125678934;
-myform = new FormGroup({
-  amount: new FormControl(''),
-  transactionDescription: new FormControl(''),
-  categoryOfSpend: new FormControl('')
+  id: Number = 125678934;
+  myform = new FormGroup({
+    amount: new FormControl(''),
+    transactionDescription: new FormControl(''),
+    categoryOfSpend: new FormControl(''),
+  });
+  constructor(private financial: FinancialService) {}
 
-})
-  constructor(private financial : FinancialService) { }
-
-  ngOnInit(): void {
-  }
-  onSubmit(){
+  ngOnInit(): void {}
+  onSubmit() {
     let d = new Date();
     let month;
-    switch(d.getMonth()){
-      case 0: month = "january"
-      break;
-      case 1: month = "Febraury"
-      break;
-      case 2: month = "March"
-      break;
-      case 3: month = "April"
-      break;
-      case 4: month = "May"
-      break;
-      case 5: month = "June"
-      break;
-      case 6: month = "July"
-      break;
-      case 7: month = "Aug"
-      break;
-      case 8: month = "September"
-      break;
-      case 9: month = "October"
-      break;
-      case 10: month = "November"
-      break;
-      case 11: month = "December"
-      break;
-      default: month = "month doesn't exist"
-
+    switch (d.getMonth()) {
+      case 0:
+        month = 'january';
+        break;
+      case 1:
+        month = 'Febraury';
+        break;
+      case 2:
+        month = 'March';
+        break;
+      case 3:
+        month = 'April';
+        break;
+      case 4:
+        month = 'May';
+        break;
+      case 5:
+        month = 'June';
+        break;
+      case 6:
+        month = 'July';
+        break;
+      case 7:
+        month = 'Aug';
+        break;
+      case 8:
+        month = 'September';
+        break;
+      case 9:
+        month = 'October';
+        break;
+      case 10:
+        month = 'November';
+        break;
+      case 11:
+        month = 'December';
+        break;
+      default:
+        month = "month doesn't exist";
     }
-   let data = 
-    { [month] : {
-   customerNumber : this.id,
+    let data = {
+      customerNumber: this.id,
       Transaction: this.myform.value,
-      date : d,
-      payment: "debit"  }
-      
-     }  
-   this.financial.post(data).subscribe((data:any) => {
-     console.log(data)
-   }, (err:any) => {
-     console.log(err);
-   })
+      date: d,
+      month: month,
+      payment: 'debit',
+    };
+    this.financial.post(data).subscribe(
+      (data: any) => {
+        alert('Data saved succesfully');
+      },
+      (err: any) => {
+        console.log(err);
+      }
+    );
   }
 }

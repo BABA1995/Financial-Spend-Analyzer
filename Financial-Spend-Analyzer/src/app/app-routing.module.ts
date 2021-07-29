@@ -5,13 +5,14 @@ import { HomeComponent } from 'src/components/home/home.component';
 import { TransactionComponent } from 'src/components/transaction/transaction.component';
 
 const routes: Routes = [
-  {path:'home', component:HomeComponent},
-  {path:'dashboard', component:DashboardComponent},
-  {path:'transaction', component:TransactionComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'transaction', component: TransactionComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

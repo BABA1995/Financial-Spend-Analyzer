@@ -120,33 +120,28 @@
       "payment": "debit",
       "id": 125678945
     },
-  
     {
-    
-        "customerNumber": 125678934,
-        "Transaction": {
-          "amount": 10000,
-          "transactionDescription": "friend intrest",
-          "categoryOfSpend": "money intrest"
-        },
-        "date": "2021-07-26T18:30:22.439Z",
-        "month": "july",
-        "payment": "credit",
-
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 10000,
+        "transactionDescription": "friend intrest",
+        "categoryOfSpend": "money intrest"
+      },
+      "date": "2021-07-26T18:30:22.439Z",
+      "month": "July",
+      "payment": "credit",
       "id": 125678947
     },
     {
-
-        "customerNumber": 125678934,
-        "Transaction": {
-          "amount": 3000,
-          "transactionDescription": "Bank intrest",
-          "categoryOfSpend": "Bank intrest"
-        },
-        "date": "2021-07-26T18:30:22.439Z",
-        "month": "july",
-        "payment": "credit",
- 
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 3000,
+        "transactionDescription": "Bank intrest",
+        "categoryOfSpend": "Bank intrest"
+      },
+      "date": "2021-07-26T18:30:22.439Z",
+      "month": "July",
+      "payment": "credit",
       "id": 125678948
     },
     {
@@ -217,7 +212,7 @@
         "categoryOfSpend": "Monthly EMI"
       },
       "date": "2021-06-26T18:19:04.483Z",
-      "month": "jume",
+      "month": "june",
       "payment": "debit",
       "id": 125678941
     },
@@ -265,39 +260,346 @@
         "categoryOfSpend": "other Expensives"
       },
       "date": "2021-06-26T18:20:56.387Z",
-      "month": "July",
+      "month": "june",
       "payment": "debit",
       "id": 125678945
     },
-
     {
-   
-        "customerNumber": 125678934,
-        "Transaction": {
-          "amount": 10000,
-          "transactionDescription": "friend intrest",
-          "categoryOfSpend": "money intrest"
-        },
-        "date": "2021-06-26T18:30:22.439Z",
-        "month": "june",
-        "payment": "credit",
- 
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 10000,
+        "transactionDescription": "friend intrest",
+        "categoryOfSpend": "money intrest"
+      },
+      "date": "2021-06-26T18:30:22.439Z",
+      "month": "june",
+      "payment": "credit",
       "id": 125678947
     },
     {
-     
-        "customerNumber": 125678934,
-        "Transaction": {
-          "amount": 10000,
-          "transactionDescription": "Bank intrest",
-          "categoryOfSpend": "Bank intrest"
-        },
-        "date": "2021-06-26T18:30:22.439Z",
-        "month": "june",
-        "payment": "credit",
-    
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 10000,
+        "transactionDescription": "Bank intrest",
+        "categoryOfSpend": "Bank intrest"
+      },
+      "date": "2021-06-26T18:30:22.439Z",
+      "month": "june",
+      "payment": "credit",
       "id": 125678947
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 123,
+        "transactionDescription": "cable",
+        "categoryOfSpend": "cable"
+      },
+      "date": "2021-06-27T04:10:12.323Z",
+      "month": "june",
+      "payment": "debit",
+      "id": 125678949
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 3000,
+        "transactionDescription": "grocieries",
+        "categoryOfSpend": "purchasing regular grocieries"
+      },
+      "date": "2021-05-26T18:17:00.679Z",
+      "month": "May",
+      "payment": "debit",
+      "id": 125678936
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 700,
+        "transactionDescription": "current Bill",
+        "categoryOfSpend": "home electricity bill"
+      },
+      "date": "2021-05-26T18:17:36.332Z",
+      "month": "May",
+      "payment": "debit",
+      "id": 125678937
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 1000,
+        "transactionDescription": "water Bill",
+        "categoryOfSpend": "home water bill"
+      },
+      "date": "2021-05-26T18:17:57.187Z",
+      "month": "May",
+      "payment": "debit",
+      "id": 125678938
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 1000,
+        "transactionDescription": "gas Bill",
+        "categoryOfSpend": "home gas bill"
+      },
+      "date": "2021-05-26T18:18:19.084Z",
+      "month": "May",
+      "payment": "debit",
+      "id": 125678939
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 10000,
+        "transactionDescription": "Rent",
+        "categoryOfSpend": "home rent bill"
+      },
+      "date": "2021-05-26T18:18:41.395Z",
+      "month": "May",
+      "payment": "debit",
+      "id": 125678940
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 10000,
+        "transactionDescription": "EMI",
+        "categoryOfSpend": "Monthly EMI"
+      },
+      "date": "2021-05-26T18:19:04.483Z",
+      "month": "May",
+      "payment": "debit",
+      "id": 125678941
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 3000,
+        "transactionDescription": "SHopping",
+        "categoryOfSpend": "Regualr shopping"
+      },
+      "date": "2021-05-26T18:19:31.451Z",
+      "month": "May",
+      "payment": "debit",
+      "id": 125678942
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 500,
+        "transactionDescription": "Daily ecpensives",
+        "categoryOfSpend": "Daily ecpensives"
+      },
+      "date": "2021-05-26T18:20:02.547Z",
+      "month": "May",
+      "payment": "debit",
+      "id": 125678943
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 500,
+        "transactionDescription": "Entertainment",
+        "categoryOfSpend": "movie theater"
+      },
+      "date": "2021-05-26T18:20:29.075Z",
+      "month": "May",
+      "payment": "debit",
+      "id": 125678944
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 5000,
+        "transactionDescription": "other Expensives",
+        "categoryOfSpend": "other Expensives"
+      },
+      "date": "2021-05-26T18:20:56.387Z",
+      "month": "May",
+      "payment": "debit",
+      "id": 125678945
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 10000,
+        "transactionDescription": "friend intrest",
+        "categoryOfSpend": "money intrest"
+      },
+      "date": "2021-05-26T18:30:22.439Z",
+      "month": "May",
+      "payment": "credit",
+      "id": 125678947
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 3000,
+        "transactionDescription": "Bank intrest",
+        "categoryOfSpend": "Bank intrest"
+      },
+      "date": "2021-05-26T18:30:22.439Z",
+      "month": "May",
+      "payment": "credit",
+      "id": 125678948
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 3000,
+        "transactionDescription": "grocieries",
+        "categoryOfSpend": "purchasing regular grocieries"
+      },
+      "date": "2021-04-26T18:17:00.679Z",
+      "month": "April",
+      "payment": "debit",
+      "id": 125678936
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 700,
+        "transactionDescription": "current Bill",
+        "categoryOfSpend": "home electricity bill"
+      },
+      "date": "2021-04-26T18:17:36.332Z",
+      "month": "April",
+      "payment": "debit",
+      "id": 125678937
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 1000,
+        "transactionDescription": "water Bill",
+        "categoryOfSpend": "home water bill"
+      },
+      "date": "2021-04-26T18:17:57.187Z",
+      "month": "April",
+      "payment": "debit",
+      "id": 125678938
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 1000,
+        "transactionDescription": "gas Bill",
+        "categoryOfSpend": "home gas bill"
+      },
+      "date": "2021-04-26T18:18:19.084Z",
+      "month": "April",
+      "payment": "debit",
+      "id": 125678939
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 10000,
+        "transactionDescription": "Rent",
+        "categoryOfSpend": "home rent bill"
+      },
+      "date": "2021-04-26T18:18:41.395Z",
+      "month": "April",
+      "payment": "debit",
+      "id": 125678940
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 10000,
+        "transactionDescription": "EMI",
+        "categoryOfSpend": "Monthly EMI"
+      },
+      "date": "2021-04-26T18:19:04.483Z",
+      "month": "April",
+      "payment": "debit",
+      "id": 125678941
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 1000,
+        "transactionDescription": "SHopping",
+        "categoryOfSpend": "Regualr shopping"
+      },
+      "date": "2021-04-26T18:19:31.451Z",
+      "month": "April",
+      "payment": "debit",
+      "id": 125678942
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 200,
+        "transactionDescription": "Daily ecpensives",
+        "categoryOfSpend": "Daily ecpensives"
+      },
+      "date": "2021-04-26T18:20:02.547Z",
+      "month": "April",
+      "payment": "debit",
+      "id": 125678943
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 300,
+        "transactionDescription": "Entertainment",
+        "categoryOfSpend": "movie theater"
+      },
+      "date": "2021-04-26T18:20:29.075Z",
+      "month": "April",
+      "payment": "debit",
+      "id": 125678944
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 3000,
+        "transactionDescription": "other Expensives",
+        "categoryOfSpend": "other Expensives"
+      },
+      "date": "2021-04-26T18:20:56.387Z",
+      "month": "April",
+      "payment": "debit",
+      "id": 125678945
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 10000,
+        "transactionDescription": "friend intrest",
+        "categoryOfSpend": "money intrest"
+      },
+      "date": "2021-04-26T18:30:22.439Z",
+      "month": "April",
+      "payment": "credit",
+      "id": 125678947
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 10000,
+        "transactionDescription": "Bank intrest",
+        "categoryOfSpend": "Bank intrest"
+      },
+      "date": "2021-04-26T18:30:22.439Z",
+      "month": "April",
+      "payment": "credit",
+      "id": 125678947
+    },
+    {
+      "customerNumber": 125678934,
+      "Transaction": {
+        "amount": 123,
+        "transactionDescription": "cable",
+        "categoryOfSpend": "cable"
+      },
+      "date": "2021-04-27T04:10:12.323Z",
+      "month": "April",
+      "payment": "debit",
+      "id": 125678949
     }
-  
+   
   ]
 }

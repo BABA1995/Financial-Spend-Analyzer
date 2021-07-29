@@ -1,25 +1,41 @@
-
-<div class="showTransac">   
-   <button type="button" (click)="onClick()"> Show Transactions</button>
+<app-nav></app-nav>
+<div class="showTransac">
+  <button type="button" (click)="onClick()">Show Transactions</button>
 </div>
 <div *ngIf="transaction">
-
-    <table >
-        <tr>
-          <th>cumstomer ID</th>
-          <th>Amount</th>
-          <th>Transaction Description</th>
-          <th>Category of Spend</th>
-          <th>Debit or Credit</th>
-          <th>Date</th>
-        </tr>
-        <tr *ngFor="let item of transaction">
-          <td>{{item.customerNumber}}</td>
-          <td>{{item.Transaction.amount}}</td>
-          <td>{{item.Transaction.transactionDescription}}</td>
-          <td>{{item.Transaction.categoryOfSpend}}</td>
-          <td>{{item.payment}}</td>
-          <td>{{item.date}}</td>
-        </tr>
-      </table>
+  <table>
+    <tr>
+      <th>cumstomer ID</th>
+      <th>Amount</th>
+      <th>Transaction Description</th>
+      <th>Category of Spend</th>
+      <th>Debit or Credit</th>
+      <th>Date</th>
+    </tr>
+    <tr
+      *ngFor="
+        let item of transaction.slice(startIndex, endeIndex);
+        let i = index
+      "
+    >
+      <td>{{ item.customerNumber }}</td>
+      <td>{{ item.Transaction.amount }}</td>
+      <td>{{ item.Transaction.transactionDescription }}</td>
+      <td>{{ item.Transaction.categoryOfSpend }}</td>
+      <td>{{ item.payment }}</td>
+      <td>{{ item.date }}</td>
+    </tr>
+  </table>
+  <div class="pagination_section">
+    <li
+      *ngFor="
+        let item of getArrayFromNumber(transaction.length);
+        let in = index
+      "
+    >
+      <a href="" (click)="updateIndex(in)" [routerLink]="['/transaction']">{{
+        in + 1
+      }}</a>
+    </li>
+  </div>
 </div>
